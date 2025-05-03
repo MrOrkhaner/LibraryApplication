@@ -1,0 +1,41 @@
+Performance Test Report with Findings and Optimization Suggestions
+
+Overview:
+This performance test was executed using Apache JMeter to evaluate the responsiveness and stability of the LibraryApplication API. We simulated GET requests to the /api/books and /api/authors endpoints under different levels of concurrent users: 10, 50, and 100.
+
+Findings:
+
+1. 10 Users:
+- All requests succeeded without any errors.
+- The average response time for both endpoints remained low (Books: ~1ms, Authors: ~7ms).
+- Throughput was around 2.2/sec for each, showing the system is responsive under low load.
+
+2. 50 Users:
+- No significant increase in error rate.
+- Response times increased slightly but remained under 10ms for both endpoints.
+- System handled the increase efficiently without slowdowns.
+
+3. 100 Users:
+- No errors occurred even at this load.
+- Average response times stayed under 10ms.
+- The system scaled well and provided consistent throughput (~4.4/sec in total).
+
+Optimization Suggestions:
+
+ **Compression**:
+   Enable GZIP compression in responses to reduce bandwidth and speed up response transmission, especially for large datasets.
+
+ **Caching Frequently Accessed Data**:
+   Cache static data like author lists or rarely updated books to minimize repeated database hits.
+
+ **Pagination**:
+   Implement pagination or server-side filtering for endpoints that may return large datasets to prevent long responses in future data growth.
+
+ **Asynchronous Logging**:
+   If logging is enabled during API hits, ensure logs are written asynchronously to avoid blocking response flow.
+
+ **Resource Monitoring**:
+   Set up real-time resource usage monitoring (CPU, RAM, I/O) in production to preemptively detect bottlenecks before scaling is required.
+
+Conclusion:
+The API performs reliably under the tested loads. While current performance is acceptable, applying the suggestions above will ensure better scalability and readiness for higher traffic in the future.

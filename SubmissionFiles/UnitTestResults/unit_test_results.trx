@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="92cc2bdc-508c-45a0-8a99-b361a6605c73" name="Yusei@NICKIE 2025-05-01 20:58:30" runUser="NICKIE\Yusei" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-05-01T20:58:30.4624217+02:00" queuing="2025-05-01T20:58:30.4624220+02:00" start="2025-05-01T20:58:29.5331736+02:00" finish="2025-05-01T20:58:30.5070625+02:00" />
+  <TestSettings name="default" id="ade407d3-2ace-4c16-8c0d-f92f8095e7c7">
+    <Deployment runDeploymentRoot="Yusei_NICKIE_2025-05-01_20_58_30" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="f27face5-de78-4c9e-bc1d-7d62062a1e43" testId="42271358-1ce9-9fce-4367-fcf3e9ae2c7d" testName="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests.UpdateAuthor_IdMismatch_ReturnsBadRequest" computerName="NICKIE" duration="00:00:00.0010219" startTime="2025-05-01T20:58:30.4337244+02:00" endTime="2025-05-01T20:58:30.4337244+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f27face5-de78-4c9e-bc1d-7d62062a1e43" />
+    <UnitTestResult executionId="14592f7c-f458-49d0-b400-95a545065f3c" testId="fd1eb05e-60e3-498e-a02a-b1a0a8079cd2" testName="LibraryApplication.Tests.Controllers.BookRecordsControllerTests.DeleteBook_ExistingId_DeletesSuccessfully" computerName="NICKIE" duration="00:00:00.0041736" startTime="2025-05-01T20:58:30.4337371+02:00" endTime="2025-05-01T20:58:30.4337371+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14592f7c-f458-49d0-b400-95a545065f3c" />
+    <UnitTestResult executionId="bf6a9831-4ee8-4064-885c-f559a10e939e" testId="80ac90e4-20ad-9d3c-11ae-7d39299f08d0" testName="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests.CreateAuthor_AddsSuccessfully" computerName="NICKIE" duration="00:00:00.0051496" startTime="2025-05-01T20:58:30.4009897+02:00" endTime="2025-05-01T20:58:30.4009898+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf6a9831-4ee8-4064-885c-f559a10e939e" />
+    <UnitTestResult executionId="49552c12-1963-443a-9739-16a1639d9fce" testId="9d9f52d8-f9cb-14a6-ca9c-4cfc0e161fda" testName="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests.UpdateAuthor_ValidId_UpdatesSuccessfully" computerName="NICKIE" duration="00:00:00.0033391" startTime="2025-05-01T20:58:30.4337030+02:00" endTime="2025-05-01T20:58:30.4337030+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49552c12-1963-443a-9739-16a1639d9fce" />
+    <UnitTestResult executionId="bf0830f6-6817-4980-8401-abf363c4ce64" testId="1cec846d-ba9d-d899-8f27-a6bc9638c9ed" testName="LibraryApplication.Tests.Controllers.BookRecordsControllerTests.CreateBook_WithInvalidAuthor_ReturnsBadRequest" computerName="NICKIE" duration="00:00:00.4089014" startTime="2025-05-01T20:58:30.3710767+02:00" endTime="2025-05-01T20:58:30.3710769+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf0830f6-6817-4980-8401-abf363c4ce64" />
+    <UnitTestResult executionId="24e9aa3c-5bc6-446b-9444-512a17140058" testId="91e6e614-9e96-7546-48d5-e434c9e68781" testName="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests.DeleteAuthor_InvalidId_ReturnsNotFound" computerName="NICKIE" duration="00:00:00.0009608" startTime="2025-05-01T20:58:30.4131956+02:00" endTime="2025-05-01T20:58:30.4131956+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24e9aa3c-5bc6-446b-9444-512a17140058" />
+    <UnitTestResult executionId="4b2077bb-9d42-4b89-8f4d-f9df542a4f51" testId="7ff7a6b4-ff31-b762-7a90-aa8ebb22d0df" testName="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests.GetAll_ReturnsAllAuthors" computerName="NICKIE" duration="00:00:00.0088962" startTime="2025-05-01T20:58:30.4121877+02:00" endTime="2025-05-01T20:58:30.4121878+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b2077bb-9d42-4b89-8f4d-f9df542a4f51" />
+    <UnitTestResult executionId="a8df9049-231e-40a2-a91b-5d24fe0f70f1" testId="4d751112-0f8e-74cf-e457-f2630c00738f" testName="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests.GetById_ExistingId_ReturnsAuthor" computerName="NICKIE" duration="00:00:00.0198583" startTime="2025-05-01T20:58:30.3958014+02:00" endTime="2025-05-01T20:58:30.3958015+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8df9049-231e-40a2-a91b-5d24fe0f70f1" />
+    <UnitTestResult executionId="23396613-498e-4c48-88e9-1a557f223203" testId="1c56b17d-bf0e-ce76-02c1-fd09e4b2af2a" testName="LibraryApplication.Tests.Controllers.BookRecordsControllerTests.DeleteBook_InvalidId_ReturnsNotFound" computerName="NICKIE" duration="00:00:00.0060717" startTime="2025-05-01T20:58:30.4337683+02:00" endTime="2025-05-01T20:58:30.4337684+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23396613-498e-4c48-88e9-1a557f223203" />
+    <UnitTestResult executionId="c5ffbc6a-b03f-4792-9191-c7e8d9631518" testId="645b4a0a-220e-10d5-af25-ee34dfa1ad16" testName="LibraryApplication.Tests.Controllers.BookRecordsControllerTests.GetById_ExistingId_ReturnsBook" computerName="NICKIE" duration="00:00:00.0009400" startTime="2025-05-01T20:58:30.4360212+02:00" endTime="2025-05-01T20:58:30.4360213+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5ffbc6a-b03f-4792-9191-c7e8d9631518" />
+    <UnitTestResult executionId="09a91c27-8ef9-4bca-b8e0-784e6a94af16" testId="37c66ed8-ea0a-dc14-4e45-a1e198e688e5" testName="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests.GetById_InvalidId_ReturnsNotFound" computerName="NICKIE" duration="00:00:00.0022118" startTime="2025-05-01T20:58:30.4032505+02:00" endTime="2025-05-01T20:58:30.4032506+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09a91c27-8ef9-4bca-b8e0-784e6a94af16" />
+    <UnitTestResult executionId="4c0fbe2a-0ebb-4034-9299-7917945a1ea5" testId="a5745882-5ba6-b072-86f5-79b9a8365039" testName="LibraryApplication.Tests.UnitTest1.Test1" computerName="NICKIE" duration="00:00:00.0013659" startTime="2025-05-01T20:58:29.9656077+02:00" endTime="2025-05-01T20:58:29.9656212+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c0fbe2a-0ebb-4034-9299-7917945a1ea5" />
+    <UnitTestResult executionId="bfd1d4f6-f814-45f2-941e-1b06b7a67592" testId="56de712d-a686-61b5-0b74-089b36e8a383" testName="LibraryApplication.Tests.Controllers.BookRecordsControllerTests.GetById_InvalidId_ReturnsNotFound" computerName="NICKIE" duration="00:00:00.0077435" startTime="2025-05-01T20:58:30.4337875+02:00" endTime="2025-05-01T20:58:30.4337875+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bfd1d4f6-f814-45f2-941e-1b06b7a67592" />
+    <UnitTestResult executionId="1bcd68e0-a484-47ba-b820-f0f8f5c7374a" testId="db5f2bff-a499-3426-a4f9-b35322e091df" testName="LibraryApplication.Tests.Controllers.BookRecordsControllerTests.GetAll_ReturnsAllBooks" computerName="NICKIE" duration="00:00:00.0429513" startTime="2025-05-01T20:58:30.4335608+02:00" endTime="2025-05-01T20:58:30.4335610+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1bcd68e0-a484-47ba-b820-f0f8f5c7374a" />
+    <UnitTestResult executionId="7276c7cc-e92d-438f-93e3-f1382fe53f65" testId="c7320259-713b-48d7-1b6c-57e4758731e6" testName="LibraryApplication.Tests.Controllers.BookRecordsControllerTests.CreateBook_WithValidAuthor_AddsBook" computerName="NICKIE" duration="00:00:00.0026849" startTime="2025-05-01T20:58:30.4349814+02:00" endTime="2025-05-01T20:58:30.4349814+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7276c7cc-e92d-438f-93e3-f1382fe53f65" />
+    <UnitTestResult executionId="d1fed08f-fd14-4521-854f-6a13c2d6c06a" testId="95c455dd-0f8f-0bbd-4ca1-a1b0f734eb3f" testName="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests.DeleteAuthor_WithBooks_DeletesBooksToo" computerName="NICKIE" duration="00:00:00.4137550" startTime="2025-05-01T20:58:30.3758615+02:00" endTime="2025-05-01T20:58:30.3758616+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1fed08f-fd14-4521-854f-6a13c2d6c06a" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="LibraryApplication.Tests.Controllers.BookRecordsControllerTests.DeleteBook_InvalidId_ReturnsNotFound" storage="c:\users\yusei\riderprojects\libraryapplication\libraryapplication.tests\bin\debug\net8.0\libraryapplication.tests.dll" id="1c56b17d-bf0e-ce76-02c1-fd09e4b2af2a">
+      <Execution id="23396613-498e-4c48-88e9-1a557f223203" />
+      <TestMethod codeBase="C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.Tests\bin\Debug\net8.0\LibraryApplication.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LibraryApplication.Tests.Controllers.BookRecordsControllerTests" name="DeleteBook_InvalidId_ReturnsNotFound" />
+    </UnitTest>
+    <UnitTest name="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests.UpdateAuthor_IdMismatch_ReturnsBadRequest" storage="c:\users\yusei\riderprojects\libraryapplication\libraryapplication.tests\bin\debug\net8.0\libraryapplication.tests.dll" id="42271358-1ce9-9fce-4367-fcf3e9ae2c7d">
+      <Execution id="f27face5-de78-4c9e-bc1d-7d62062a1e43" />
+      <TestMethod codeBase="C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.Tests\bin\Debug\net8.0\LibraryApplication.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests" name="UpdateAuthor_IdMismatch_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests.GetById_ExistingId_ReturnsAuthor" storage="c:\users\yusei\riderprojects\libraryapplication\libraryapplication.tests\bin\debug\net8.0\libraryapplication.tests.dll" id="4d751112-0f8e-74cf-e457-f2630c00738f">
+      <Execution id="a8df9049-231e-40a2-a91b-5d24fe0f70f1" />
+      <TestMethod codeBase="C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.Tests\bin\Debug\net8.0\LibraryApplication.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests" name="GetById_ExistingId_ReturnsAuthor" />
+    </UnitTest>
+    <UnitTest name="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests.DeleteAuthor_WithBooks_DeletesBooksToo" storage="c:\users\yusei\riderprojects\libraryapplication\libraryapplication.tests\bin\debug\net8.0\libraryapplication.tests.dll" id="95c455dd-0f8f-0bbd-4ca1-a1b0f734eb3f">
+      <Execution id="d1fed08f-fd14-4521-854f-6a13c2d6c06a" />
+      <TestMethod codeBase="C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.Tests\bin\Debug\net8.0\LibraryApplication.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests" name="DeleteAuthor_WithBooks_DeletesBooksToo" />
+    </UnitTest>
+    <UnitTest name="LibraryApplication.Tests.Controllers.BookRecordsControllerTests.GetAll_ReturnsAllBooks" storage="c:\users\yusei\riderprojects\libraryapplication\libraryapplication.tests\bin\debug\net8.0\libraryapplication.tests.dll" id="db5f2bff-a499-3426-a4f9-b35322e091df">
+      <Execution id="1bcd68e0-a484-47ba-b820-f0f8f5c7374a" />
+      <TestMethod codeBase="C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.Tests\bin\Debug\net8.0\LibraryApplication.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LibraryApplication.Tests.Controllers.BookRecordsControllerTests" name="GetAll_ReturnsAllBooks" />
+    </UnitTest>
+    <UnitTest name="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests.GetById_InvalidId_ReturnsNotFound" storage="c:\users\yusei\riderprojects\libraryapplication\libraryapplication.tests\bin\debug\net8.0\libraryapplication.tests.dll" id="37c66ed8-ea0a-dc14-4e45-a1e198e688e5">
+      <Execution id="09a91c27-8ef9-4bca-b8e0-784e6a94af16" />
+      <TestMethod codeBase="C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.Tests\bin\Debug\net8.0\LibraryApplication.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests" name="GetById_InvalidId_ReturnsNotFound" />
+    </UnitTest>
+    <UnitTest name="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests.UpdateAuthor_ValidId_UpdatesSuccessfully" storage="c:\users\yusei\riderprojects\libraryapplication\libraryapplication.tests\bin\debug\net8.0\libraryapplication.tests.dll" id="9d9f52d8-f9cb-14a6-ca9c-4cfc0e161fda">
+      <Execution id="49552c12-1963-443a-9739-16a1639d9fce" />
+      <TestMethod codeBase="C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.Tests\bin\Debug\net8.0\LibraryApplication.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests" name="UpdateAuthor_ValidId_UpdatesSuccessfully" />
+    </UnitTest>
+    <UnitTest name="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests.DeleteAuthor_InvalidId_ReturnsNotFound" storage="c:\users\yusei\riderprojects\libraryapplication\libraryapplication.tests\bin\debug\net8.0\libraryapplication.tests.dll" id="91e6e614-9e96-7546-48d5-e434c9e68781">
+      <Execution id="24e9aa3c-5bc6-446b-9444-512a17140058" />
+      <TestMethod codeBase="C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.Tests\bin\Debug\net8.0\LibraryApplication.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests" name="DeleteAuthor_InvalidId_ReturnsNotFound" />
+    </UnitTest>
+    <UnitTest name="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests.GetAll_ReturnsAllAuthors" storage="c:\users\yusei\riderprojects\libraryapplication\libraryapplication.tests\bin\debug\net8.0\libraryapplication.tests.dll" id="7ff7a6b4-ff31-b762-7a90-aa8ebb22d0df">
+      <Execution id="4b2077bb-9d42-4b89-8f4d-f9df542a4f51" />
+      <TestMethod codeBase="C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.Tests\bin\Debug\net8.0\LibraryApplication.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests" name="GetAll_ReturnsAllAuthors" />
+    </UnitTest>
+    <UnitTest name="LibraryApplication.Tests.Controllers.BookRecordsControllerTests.GetById_InvalidId_ReturnsNotFound" storage="c:\users\yusei\riderprojects\libraryapplication\libraryapplication.tests\bin\debug\net8.0\libraryapplication.tests.dll" id="56de712d-a686-61b5-0b74-089b36e8a383">
+      <Execution id="bfd1d4f6-f814-45f2-941e-1b06b7a67592" />
+      <TestMethod codeBase="C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.Tests\bin\Debug\net8.0\LibraryApplication.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LibraryApplication.Tests.Controllers.BookRecordsControllerTests" name="GetById_InvalidId_ReturnsNotFound" />
+    </UnitTest>
+    <UnitTest name="LibraryApplication.Tests.Controllers.BookRecordsControllerTests.CreateBook_WithInvalidAuthor_ReturnsBadRequest" storage="c:\users\yusei\riderprojects\libraryapplication\libraryapplication.tests\bin\debug\net8.0\libraryapplication.tests.dll" id="1cec846d-ba9d-d899-8f27-a6bc9638c9ed">
+      <Execution id="bf0830f6-6817-4980-8401-abf363c4ce64" />
+      <TestMethod codeBase="C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.Tests\bin\Debug\net8.0\LibraryApplication.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LibraryApplication.Tests.Controllers.BookRecordsControllerTests" name="CreateBook_WithInvalidAuthor_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="LibraryApplication.Tests.Controllers.BookRecordsControllerTests.DeleteBook_ExistingId_DeletesSuccessfully" storage="c:\users\yusei\riderprojects\libraryapplication\libraryapplication.tests\bin\debug\net8.0\libraryapplication.tests.dll" id="fd1eb05e-60e3-498e-a02a-b1a0a8079cd2">
+      <Execution id="14592f7c-f458-49d0-b400-95a545065f3c" />
+      <TestMethod codeBase="C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.Tests\bin\Debug\net8.0\LibraryApplication.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LibraryApplication.Tests.Controllers.BookRecordsControllerTests" name="DeleteBook_ExistingId_DeletesSuccessfully" />
+    </UnitTest>
+    <UnitTest name="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests.CreateAuthor_AddsSuccessfully" storage="c:\users\yusei\riderprojects\libraryapplication\libraryapplication.tests\bin\debug\net8.0\libraryapplication.tests.dll" id="80ac90e4-20ad-9d3c-11ae-7d39299f08d0">
+      <Execution id="bf6a9831-4ee8-4064-885c-f559a10e939e" />
+      <TestMethod codeBase="C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.Tests\bin\Debug\net8.0\LibraryApplication.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LibraryApplication.Tests.Controllers.AuthorRecordsControllerTests" name="CreateAuthor_AddsSuccessfully" />
+    </UnitTest>
+    <UnitTest name="LibraryApplication.Tests.Controllers.BookRecordsControllerTests.GetById_ExistingId_ReturnsBook" storage="c:\users\yusei\riderprojects\libraryapplication\libraryapplication.tests\bin\debug\net8.0\libraryapplication.tests.dll" id="645b4a0a-220e-10d5-af25-ee34dfa1ad16">
+      <Execution id="c5ffbc6a-b03f-4792-9191-c7e8d9631518" />
+      <TestMethod codeBase="C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.Tests\bin\Debug\net8.0\LibraryApplication.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LibraryApplication.Tests.Controllers.BookRecordsControllerTests" name="GetById_ExistingId_ReturnsBook" />
+    </UnitTest>
+    <UnitTest name="LibraryApplication.Tests.Controllers.BookRecordsControllerTests.CreateBook_WithValidAuthor_AddsBook" storage="c:\users\yusei\riderprojects\libraryapplication\libraryapplication.tests\bin\debug\net8.0\libraryapplication.tests.dll" id="c7320259-713b-48d7-1b6c-57e4758731e6">
+      <Execution id="7276c7cc-e92d-438f-93e3-f1382fe53f65" />
+      <TestMethod codeBase="C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.Tests\bin\Debug\net8.0\LibraryApplication.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LibraryApplication.Tests.Controllers.BookRecordsControllerTests" name="CreateBook_WithValidAuthor_AddsBook" />
+    </UnitTest>
+    <UnitTest name="LibraryApplication.Tests.UnitTest1.Test1" storage="c:\users\yusei\riderprojects\libraryapplication\libraryapplication.tests\bin\debug\net8.0\libraryapplication.tests.dll" id="a5745882-5ba6-b072-86f5-79b9a8365039">
+      <Execution id="4c0fbe2a-0ebb-4034-9299-7917945a1ea5" />
+      <TestMethod codeBase="C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.Tests\bin\Debug\net8.0\LibraryApplication.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="LibraryApplication.Tests.UnitTest1" name="Test1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="42271358-1ce9-9fce-4367-fcf3e9ae2c7d" executionId="f27face5-de78-4c9e-bc1d-7d62062a1e43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd1eb05e-60e3-498e-a02a-b1a0a8079cd2" executionId="14592f7c-f458-49d0-b400-95a545065f3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80ac90e4-20ad-9d3c-11ae-7d39299f08d0" executionId="bf6a9831-4ee8-4064-885c-f559a10e939e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d9f52d8-f9cb-14a6-ca9c-4cfc0e161fda" executionId="49552c12-1963-443a-9739-16a1639d9fce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1cec846d-ba9d-d899-8f27-a6bc9638c9ed" executionId="bf0830f6-6817-4980-8401-abf363c4ce64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91e6e614-9e96-7546-48d5-e434c9e68781" executionId="24e9aa3c-5bc6-446b-9444-512a17140058" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ff7a6b4-ff31-b762-7a90-aa8ebb22d0df" executionId="4b2077bb-9d42-4b89-8f4d-f9df542a4f51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d751112-0f8e-74cf-e457-f2630c00738f" executionId="a8df9049-231e-40a2-a91b-5d24fe0f70f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c56b17d-bf0e-ce76-02c1-fd09e4b2af2a" executionId="23396613-498e-4c48-88e9-1a557f223203" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="645b4a0a-220e-10d5-af25-ee34dfa1ad16" executionId="c5ffbc6a-b03f-4792-9191-c7e8d9631518" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37c66ed8-ea0a-dc14-4e45-a1e198e688e5" executionId="09a91c27-8ef9-4bca-b8e0-784e6a94af16" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5745882-5ba6-b072-86f5-79b9a8365039" executionId="4c0fbe2a-0ebb-4034-9299-7917945a1ea5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56de712d-a686-61b5-0b74-089b36e8a383" executionId="bfd1d4f6-f814-45f2-941e-1b06b7a67592" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db5f2bff-a499-3426-a4f9-b35322e091df" executionId="1bcd68e0-a484-47ba-b820-f0f8f5c7374a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7320259-713b-48d7-1b6c-57e4758731e6" executionId="7276c7cc-e92d-438f-93e3-f1382fe53f65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95c455dd-0f8f-0bbd-4ca1-a1b0f734eb3f" executionId="d1fed08f-fd14-4521-854f-6a13c2d6c06a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Bir Listede Olmayan Sonuçlar" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Yüklenen Tüm Sonuçlar" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="16" executed="16" passed="16" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.3.1+6b60a9e56a (64-bit .NET 8.0.13)&#xD;
+[xUnit.net 00:00:00.06]   Discovering: LibraryApplication.Tests&#xD;
+[xUnit.net 00:00:00.09]   Discovered:  LibraryApplication.Tests&#xD;
+[xUnit.net 00:00:00.09]   Starting:    LibraryApplication.Tests&#xD;
+[xUnit.net 00:00:00.60]   Finished:    LibraryApplication.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

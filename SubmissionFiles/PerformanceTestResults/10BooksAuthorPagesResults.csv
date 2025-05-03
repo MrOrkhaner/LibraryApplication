@@ -1,0 +1,4 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+GET Authors,10,7,7,10,1.10,0.000%,2.21828,6.95,0.28,3206.0
+GET Books,10,1,1,2,0.40,0.000%,2.22222,6.96,0.28,3206.0
+TOTAL,20,4,1,10,3.06,0.000%,4.43459,13.88,0.55,3206.0

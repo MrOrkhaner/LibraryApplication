@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Yusei\\RiderProjects\\LibraryApplication\\LibraryApplication.API\\wwwroot\\Index.html",
+      "PackagePath": "staticwebassets\\Index.html"
+    },
+    {
+      "Id": "C:\\Users\\Yusei\\RiderProjects\\LibraryApplication\\LibraryApplication.API\\wwwroot\\authors.html",
+      "PackagePath": "staticwebassets\\authors.html"
+    },
+    {
+      "Id": "C:\\Users\\Yusei\\RiderProjects\\LibraryApplication\\LibraryApplication.API\\wwwroot\\books.html",
+      "PackagePath": "staticwebassets\\books.html"
+    },
+    {
+      "Id": "C:\\Users\\Yusei\\RiderProjects\\LibraryApplication\\LibraryApplication.API\\wwwroot\\css\\authors.css",
+      "PackagePath": "staticwebassets\\css\\authors.css"
+    },
+    {
+      "Id": "C:\\Users\\Yusei\\RiderProjects\\LibraryApplication\\LibraryApplication.API\\wwwroot\\css\\books.css",
+      "PackagePath": "staticwebassets\\css\\books.css"
+    },
+    {
+      "Id": "C:\\Users\\Yusei\\RiderProjects\\LibraryApplication\\LibraryApplication.API\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\Yusei\\RiderProjects\\LibraryApplication\\LibraryApplication.API\\wwwroot\\js\\authors.js",
+      "PackagePath": "staticwebassets\\js\\authors.js"
+    },
+    {
+      "Id": "C:\\Users\\Yusei\\RiderProjects\\LibraryApplication\\LibraryApplication.API\\wwwroot\\js\\books.js",
+      "PackagePath": "staticwebassets\\js\\books.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LibraryApplication.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LibraryApplication.API.props",
+      "PackagePath": "build\\LibraryApplication.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LibraryApplication.API.props",
+      "PackagePath": "buildMultiTargeting\\LibraryApplication.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LibraryApplication.API.props",
+      "PackagePath": "buildTransitive\\LibraryApplication.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

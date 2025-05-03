@@ -1,0 +1,499 @@
+{
+	"id": "1be0dbb6-c808-4d08-8bff-6c399fa9555a",
+	"name": "LibraryApplicationAPITests",
+	"timestamp": "2025-05-02T20:41:59.827Z",
+	"collection_id": "42430026-5bae760a-cda1-48a2-8efe-2ccd55d2ed0b",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 10,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-05-02T20:41:57.264Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ab2ad3c6-b969-422e-8fdb-513e222c7218",
+			"name": "Get all books",
+			"url": "https://localhost:44330/api/books",
+			"time": 90,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				90
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d1c0d858-41cb-4c2c-9c9e-e042bb5b8fc1",
+			"name": "Get a book by ID",
+			"url": "https://localhost:44330/api/books/6",
+			"time": 70,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				70
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3b37695b-89d3-45ea-b15c-5d3ac033ad18",
+			"name": "Add a book",
+			"url": "https://localhost:44330/api/books",
+			"time": 298,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				298
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "40ee59aa-98c9-4097-89fc-2bf6ecb54938",
+			"name": "Update a book",
+			"url": "https://localhost:44330/api/books/13",
+			"time": 51,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				51
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c4c61e00-2d7c-4936-a48c-4a357e515223",
+			"name": "Delete a book",
+			"url": "https://localhost:44330/api/books/14",
+			"time": 11,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				11
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "98d3429d-d38e-41c8-ac30-efc3fa879968",
+			"name": "All Authors",
+			"url": "https://localhost:44330/api/authors",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				7
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2f30788f-c93a-4c0b-a9c8-811f999b7650",
+			"name": "an author by ID",
+			"url": "https://localhost:44330/api/authors/2",
+			"time": 21,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				21
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "33cdc3af-26e6-4ffc-bc29-62824d2e3f14",
+			"name": "Add an author",
+			"url": "https://localhost:44330/api/authors",
+			"time": 23,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				23
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c255666c-9bd0-4870-b9fd-74dcc98a0c05",
+			"name": "Update an author",
+			"url": "https://localhost:44330/api/authors/8",
+			"time": 11,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				11
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9845ab37-f193-49c1-bcfb-38973d667ff4",
+			"name": "Delete an author",
+			"url": "https://localhost:44330/api/authors/8",
+			"time": 9,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				9
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1754640a-0000-444e-932c-cbffcb3ba597",
+			"name": "Nonexistent book",
+			"url": "https://localhost:44330/api/books/9999",
+			"time": 6,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "452ca3af-6946-4d65-a9d6-0e9b9b42c985",
+			"name": "Create Book Invalid Author ID",
+			"url": "https://localhost:44330/api/books\n",
+			"time": 1,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Should return 400 Bad Request for invalid author": true
+			},
+			"testPassFailCounts": {
+				"Should return 400 Bad Request for invalid author": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1
+			],
+			"allTests": [
+				{
+					"Should return 400 Bad Request for invalid author": true
+				}
+			]
+		},
+		{
+			"id": "23bcf105-926f-4848-bb34-6defd97c479b",
+			"name": "Book Missing fullName",
+			"url": "https://localhost:44330/api/books",
+			"time": 6,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Response mentions 'title'": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response mentions 'title'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Response mentions 'title'": true
+				}
+			]
+		},
+		{
+			"id": "793251e6-be3f-44a8-a2e1-94a9e7d81692",
+			"name": "Create Book Empty Genre",
+			"url": "https://localhost:44330/api/books\n",
+			"time": 4,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "0e7d62ae-f7be-4f6c-aa3a-43c85ad34653",
+			"name": "Update a nonexistent book",
+			"url": "https://localhost:44330/api/books/999",
+			"time": 10,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "74a7381f-a4bb-44f7-91fd-ac2b056140e7",
+			"name": "Author Creation Missing Name",
+			"url": "https://localhost:44330/api/authors",
+			"time": 3,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Response mentions 'fullName'": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response mentions 'fullName'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Response mentions 'fullName'": true
+				}
+			]
+		},
+		{
+			"id": "137a5107-9f28-4e72-8629-f2c17fe1feff",
+			"name": "Authors Empty Nationality",
+			"url": "https://localhost:44330/api/authors",
+			"time": 3,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Response mentions 'nationality'": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response mentions 'nationality'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Response mentions 'nationality'": true
+				}
+			]
+		},
+		{
+			"id": "8208ede2-a37c-491a-a206-4065bbb83a95",
+			"name": "Update Non-existent Author",
+			"url": "https://localhost:44330/api/authors/999",
+			"time": 5,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 629,
+	"collection": {
+		"requests": [
+			{
+				"id": "ab2ad3c6-b969-422e-8fdb-513e222c7218",
+				"method": "GET"
+			},
+			{
+				"id": "d1c0d858-41cb-4c2c-9c9e-e042bb5b8fc1",
+				"method": "GET"
+			},
+			{
+				"id": "3b37695b-89d3-45ea-b15c-5d3ac033ad18",
+				"method": "POST"
+			},
+			{
+				"id": "40ee59aa-98c9-4097-89fc-2bf6ecb54938",
+				"method": "PUT"
+			},
+			{
+				"id": "c4c61e00-2d7c-4936-a48c-4a357e515223",
+				"method": "DELETE"
+			},
+			{
+				"id": "98d3429d-d38e-41c8-ac30-efc3fa879968",
+				"method": "GET"
+			},
+			{
+				"id": "2f30788f-c93a-4c0b-a9c8-811f999b7650",
+				"method": "GET"
+			},
+			{
+				"id": "33cdc3af-26e6-4ffc-bc29-62824d2e3f14",
+				"method": "POST"
+			},
+			{
+				"id": "c255666c-9bd0-4870-b9fd-74dcc98a0c05",
+				"method": "PUT"
+			},
+			{
+				"id": "9845ab37-f193-49c1-bcfb-38973d667ff4",
+				"method": "DELETE"
+			},
+			{
+				"id": "1754640a-0000-444e-932c-cbffcb3ba597",
+				"method": "GET"
+			},
+			{
+				"id": "452ca3af-6946-4d65-a9d6-0e9b9b42c985",
+				"method": "POST"
+			},
+			{
+				"id": "23bcf105-926f-4848-bb34-6defd97c479b",
+				"method": "POST"
+			},
+			{
+				"id": "793251e6-be3f-44a8-a2e1-94a9e7d81692",
+				"method": "POST"
+			},
+			{
+				"id": "0e7d62ae-f7be-4f6c-aa3a-43c85ad34653",
+				"method": "PUT"
+			},
+			{
+				"id": "74a7381f-a4bb-44f7-91fd-ac2b056140e7",
+				"method": "POST"
+			},
+			{
+				"id": "137a5107-9f28-4e72-8629-f2c17fe1feff",
+				"method": "POST"
+			},
+			{
+				"id": "8208ede2-a37c-491a-a206-4065bbb83a95",
+				"method": "PUT"
+			}
+		]
+	}
+}

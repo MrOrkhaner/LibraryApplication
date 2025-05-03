@@ -1,0 +1,176 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-05-03T14:02:43.285Z",
+    "end": "2025-05-03T14:02:51.539Z",
+    "duration": 8254,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c37c8014-82d2-494a-b25b-a598a9902b9d",
+      "title": "",
+      "fullFile": "cypress\\e2e\\book-page.cy.js",
+      "file": "cypress\\e2e\\book-page.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e7252c72-8d80-4fdd-a6a3-e419687e7642",
+          "title": "Book Page Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Rejects book with empty title",
+              "fullTitle": "Book Page Tests Rejects book with empty title",
+              "timedOut": null,
+              "duration": 1121,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#title').should('exist').and('be.visible').clear();\ncy.get('#genre').clear().type('Test Genre');\ncy.get('#publishedOn').clear().type('2025-05-03');\ncy.get('#authorId').select(1);\ncy.get('form').submit();\ncy.on('window:alert', msg => {\n  expect(msg).to.include('Title is required');\n});",
+              "err": {},
+              "uuid": "d346d7f8-3724-461c-aa5c-1899a764d052",
+              "parentUUID": "e7252c72-8d80-4fdd-a6a3-e419687e7642",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Updates an existing book",
+              "fullTitle": "Book Page Tests Updates an existing book",
+              "timedOut": null,
+              "duration": 2806,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Save the first row's ID\ncy.get('#booksTable tbody tr').first().find('td').first().invoke('text').then(bookId => {\n  const trimmedId = bookId.trim();\n  cy.wrap(trimmedId).as('bookId');\n});\n// Update the first book row\ncy.get('#booksTable tbody tr').first().within(() => {\n  cy.get('input[data-field=\"title\"]').clear().type('Updated Book');\n  cy.get('input[data-field=\"genre\"]').clear().type('Updated Genre');\n  cy.get('input[data-field=\"publishedOn\"]').clear().type('2025-05-04');\n  cy.contains('Update').click();\n});\n// Wait and reload the page\ncy.wait(1500);\ncy.visit('https://localhost:44330/books.html');\n// Find the row again by ID and verify updated values\ncy.get('@bookId').then(bookId => {\n  cy.get('#booksTable tbody tr').each($row => {\n    const idCell = $row.children[0];\n    if (idCell && idCell.textContent.trim() === bookId) {\n      cy.wrap($row).within(() => {\n        cy.get('input[data-field=\"title\"]').should('have.value', 'Updated Book');\n        cy.get('input[data-field=\"genre\"]').should('have.value', 'Updated Genre');\n      });\n    }\n  });\n});",
+              "err": {},
+              "uuid": "24cbdcfc-e2fb-4851-bbce-e8f6e55a3766",
+              "parentUUID": "e7252c72-8d80-4fdd-a6a3-e419687e7642",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Deletes a book",
+              "fullTitle": "Book Page Tests Deletes a book",
+              "timedOut": null,
+              "duration": 2843,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#title').clear().type('Book To Delete');\ncy.get('#genre').clear().type('Drama');\ncy.get('#publishedOn').clear().type('2025-05-01');\ncy.get('#authorId').select(1);\ncy.get('form').submit();\ncy.on('window:alert', () => {});\ncy.wait(1000);\ncy.get('#booksTable tbody tr').last().within(() => {\n  cy.contains('Delete').click();\n});\ncy.on('window:confirm', () => true);\ncy.wait(500);\ncy.reload();\ncy.get('#booksTable').should('not.contain', 'Book To Delete');",
+              "err": {},
+              "uuid": "c36d76f2-d5e8-4783-88ad-419dec17c6be",
+              "parentUUID": "e7252c72-8d80-4fdd-a6a3-e419687e7642",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Fails if Title input is hidden or disabled",
+              "fullTitle": "Book Page Tests Fails if Title input is hidden or disabled",
+              "timedOut": null,
+              "duration": 44,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#title').should('exist').and('be.visible').and('not.be.disabled');",
+              "err": {},
+              "uuid": "8270920a-7f44-40f7-8427-c075ad1f9e44",
+              "parentUUID": "e7252c72-8d80-4fdd-a6a3-e419687e7642",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Navigates to Authors page via button",
+              "fullTitle": "Book Page Tests Navigates to Authors page via button",
+              "timedOut": null,
+              "duration": 137,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('Go to Authors Page').should('exist').click();\ncy.url().should('include', '/authors.html');\ncy.contains('Author List').should('be.visible');",
+              "err": {},
+              "uuid": "8f75b261-6f2f-4913-b7ba-8c762c8bd01c",
+              "parentUUID": "e7252c72-8d80-4fdd-a6a3-e419687e7642",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d346d7f8-3724-461c-aa5c-1899a764d052",
+            "24cbdcfc-e2fb-4851-bbce-e8f6e55a3766",
+            "c36d76f2-d5e8-4783-88ad-419dec17c6be",
+            "8270920a-7f44-40f7-8427-c075ad1f9e44",
+            "8f75b261-6f2f-4913-b7ba-8c762c8bd01c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6951,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}

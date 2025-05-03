@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Authors</title>
+    <link rel="stylesheet" href="css/authors.css">
+</head>
+<body>
+<div style="text-align: right; margin-bottom: 20px;">
+    <button onclick="window.location.href='books.html'">Go to Books Page</button>
+</div>
+<h1>Author List</h1>
+<table id="authorsTable" border="1">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Full Name</th>
+        <th>Nationality</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+<h2>Add New Author</h2>
+<form id="authorForm">
+    <label>Full Name:</label>
+    <input type="text" id="fullName" required />
+    <label>Nationality:</label>
+    <input type="text" id="nationality" required />
+    <button type="submit">Add Author</button>
+</form>
+
+<script src="js/authors.js" defer></script>
+
+</body>
+</html>

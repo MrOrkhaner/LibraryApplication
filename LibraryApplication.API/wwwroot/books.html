@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Books</title>
+    <link rel="stylesheet" href="css/books.css">
+    <script src="js/books.js" defer></script>
+</head>
+<body>
+<div style="text-align: right; margin-bottom: 20px;">
+    <button onclick="window.location.href='authors.html'">Go to Authors Page</button>
+</div>
+<h1>Book List</h1>
+
+<table border="1" id="booksTable">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Genre</th>
+        <th>Published On</th>
+        <th>Author ID</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Populated by JS -->
+    </tbody>
+</table>
+
+<h2>Add New Book</h2>
+<form id="bookForm">
+    <label>Title: <input type="text" id="title" required></label>
+    <label>Genre: <input type="text" id="genre" required></label>
+    <label>Published On: <input type="date" id="publishedOn" required></label>
+    <label for="authorId">Author:</label>
+    <select id="authorId" required>
+        <option value="" disabled selected>Select an author</option>
+    </select>
+
+    <button type="submit">Add Book</button>
+</form>
+</body>
+</html>
