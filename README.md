@@ -2,7 +2,7 @@
 
 This is a full-stack web application for managing books and authors, developed as part of a university assignment. The project includes API development, database integration, UI implementation, and complete testing (unit, API, UI, and performance).
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **Backend:** ASP.NET Core (.NET 8)
 - **Database:** MySQL (MySQL Workbench)
