@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container
+
 builder.Services.AddAuthorization();
 
 builder.Services.AddDbContext<LibraryDbContext>(options =>
@@ -13,7 +13,7 @@ builder.Services.AddDbContext<LibraryDbContext>(options =>
         new MySqlServerVersion(new Version(8, 0, 42))
     ));
 
-// ✅ Add JSON cycle handling
+
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
@@ -27,7 +27,7 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

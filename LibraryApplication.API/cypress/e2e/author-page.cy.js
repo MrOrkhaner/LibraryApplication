@@ -35,7 +35,7 @@
         cy.get('#nationality').should('exist').clear().type('Nowhere');
         cy.get('form').submit();
 
-        cy.on('window:alert', () => {}); // ignore if already exists
+        cy.on('window:alert', () => {}); 
         cy.wait(1000); // wait for insertion
 
         cy.get('#authorsTable tbody tr').last().within(() => {

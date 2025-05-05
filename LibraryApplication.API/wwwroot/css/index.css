@@ -13,7 +13,7 @@ h1 {
 }
 
 ul {
-    list-style-type: none; /* remove bullet points */
+    list-style-type: none; 
     padding: 0;
 }
 

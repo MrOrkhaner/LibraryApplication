@@ -12,7 +12,7 @@ namespace LibraryApplication.Tests.Controllers
         private LibraryDbContext GetInMemoryDbContext()
         {
             var options = new DbContextOptionsBuilder<LibraryDbContext>()
-                .UseInMemoryDatabase(Guid.NewGuid().ToString()) // fresh db per test
+                .UseInMemoryDatabase(Guid.NewGuid().ToString()) 
                 .Options;
 
             var context = new LibraryDbContext(options);

@@ -76,7 +76,7 @@ namespace LibraryApplication.Api.Controllers
         [HttpPost]
         public async Task<ActionResult<BookWithAuthorDto>> Create(BookEntity book)
         {
-            // Check if the author exists
+            
             var author = await _context.Authors.FirstOrDefaultAsync(a => a.Id == book.AuthorId);
             if (author == null)
             {
@@ -86,7 +86,7 @@ namespace LibraryApplication.Api.Controllers
             _context.Books.Add(book);
             await _context.SaveChangesAsync();
 
-            // Build DTO to avoid including books array with null
+           
             var result = new BookWithAuthorDto
             {
                 Id = book.Id,

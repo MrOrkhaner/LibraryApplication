@@ -43,3 +43,7 @@ C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.API\obj\Debug
 C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.API\obj\Debug\net8.0\ref\LibraryApplication.API.dll
 C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.API\bin\Debug\net8.0\LibraryApplication.API.staticwebassets.runtime.json
 C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.API\bin\Debug\net8.0\cypress\fixtures\example.json
+C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.API\bin\Debug\net8.0\mochawesome-report\mochawesome.json
+C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.API\bin\Debug\net8.0\package-lock.json
+C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.API\bin\Debug\net8.0\package.json
+C:\Users\Yusei\RiderProjects\LibraryApplication\LibraryApplication.API\obj\Debug\net8.0\LibraryApplication.API.sourcelink.json

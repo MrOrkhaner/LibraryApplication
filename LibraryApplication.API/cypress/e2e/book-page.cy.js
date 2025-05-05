@@ -18,7 +18,7 @@
     });
 
     it('Updates an existing book', () => {
-        // Save the first row's ID
+      
         cy.get('#booksTable tbody tr').first().find('td').first().invoke('text').then(bookId => {
             const trimmedId = bookId.trim();
             cy.wrap(trimmedId).as('bookId');
@@ -32,7 +32,7 @@
             cy.contains('Update').click();
         });
 
-        // Wait and reload the page
+      
         cy.wait(1500);
         cy.visit('https://localhost:44330/books.html');
 

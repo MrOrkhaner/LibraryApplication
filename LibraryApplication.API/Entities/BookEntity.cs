@@ -8,8 +8,7 @@
         public DateTime PublishedOn { get; set; }
 
         public int AuthorId { get; set; }
-        public AuthorEntity? Author { get; set; }  // <-- Make it nullable
-
+        public AuthorEntity? Author { get; set; }  
 
     }
 }
